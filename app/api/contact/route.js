@@ -6,7 +6,7 @@ export const runtime = "nodejs";
 export async function POST(request) {
   try {
     const { name, email, phone, service, message } = await request.json();
-
+  console.log("🔥 API HIT /api/contact");
     if (!name || !phone) {
       return Response.json(
         { error: "Name and phone are required." },
@@ -15,7 +15,13 @@ export async function POST(request) {
     }
 
     const user = process.env.EMAIL_USER;
-    const pass = process.env.EMAIL_PASS; // FIXED (removed broken code block)
+    const pass = process.env.EMAIL_PASS; 
+    console.log("ENV CHECK:", {
+  user,
+  passLength: pass?.length,
+  host: process.env.SMTP_HOST,
+  port: process.env.SMTP_PORT,
+});// FIXED (removed broken code block)
 
     if (!user || !pass) {
       console.error("Missing EMAIL_USER or EMAIL_PASS in .env.local");
@@ -26,17 +32,19 @@ export async function POST(request) {
       );
     }
 
-    const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT),
-      secure: true,
-      auth: {
-        user,
-        pass,
-      },
-    });
+ const transporter = nodemailer.createTransport({
+  host: process.env.SMTP_HOST,
+  port: 465,
+  secure: true,
+  auth: {
+    user,
+    pass,
+  },
+});
 
+console.log("📧 Sending email now...");
     await transporter.sendMail({
+    
       from: `"Jimmy Cleans Website" <${user}>`,
       to: process.env.EMAIL_USER,
       replyTo: email || undefined,
@@ -114,7 +122,7 @@ export async function POST(request) {
         </div>
       `,
     });
-
+console.log("✅ Email sent successfully");
     return Response.json({ success: true });
 
   } catch (err) {

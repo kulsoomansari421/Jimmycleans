@@ -41,14 +41,14 @@ const services = [
     title: "Post-Construction",
     desc: "Remove dust, debris, and residue. Make your new space move-in ready.",
     href: "/services/post-construction-cleaning",
-    image: "/Postconstruction2.png",
+    image: "/postconstruction2.png",
   },
   {
     icon: Zap,
     title: "Power Washing",
     desc: "Restore driveways, patios, siding, and decks to like-new condition.",
     href: "/services/power-washing",
-    image: "/Powerwashing1.png",
+    image: "/powerwashing1.png",
   },
 ];
 
