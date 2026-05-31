@@ -1,7 +1,6 @@
 const nextConfig = {
-  output: "export", // static site banane ke liye
   images: {
-    unoptimized: true, // IMPORTANT for Hostinger
+    unoptimized: true,
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "i.pravatar.cc" },
