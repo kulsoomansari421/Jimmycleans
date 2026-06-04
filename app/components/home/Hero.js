@@ -11,7 +11,7 @@ export default function Hero() {
 
       {/* ── Full background image ── */}
       <Image
-        src="/Website Cover Photo.png"
+        src="/herocover.png"
         alt="Website Cover"
         fill
         priority
