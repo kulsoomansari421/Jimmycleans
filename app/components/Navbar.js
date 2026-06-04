@@ -121,7 +121,7 @@ export default function Navbar() {
           {/* Desktop right actions */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="tel:+12015550100"
+              href="tel:+19736176978"
               className="flex items-center gap-1.5 text-sm font-medium text-[#6b7280] hover:text-[#1B9DE8] transition-colors duration-200"
             >
               <Phone size={13} />
@@ -197,7 +197,7 @@ export default function Navbar() {
 
                 <div className="pt-3 border-t border-[#f0f0f0] flex flex-col gap-2">
                   <a
-                    href="tel:+12015550100"
+                    href="tel:+19736176978"
                     className="flex items-center gap-2 px-3 py-2.5 text-sm text-[#374151] hover:text-[#1B9DE8] hover:bg-[#f0f7fe] rounded-xl transition-all"
                   >
                     <Phone size={14} />

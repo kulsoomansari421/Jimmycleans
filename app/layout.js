@@ -22,7 +22,7 @@ export const metadata = {
     template: "%s | Jimmy Cleans NJ",
   },
   description:
-    "Jimmy Cleans has been serving North New Jersey homes and businesses since 2016. Residential, commercial, window, post-construction, and power washing. Free quotes. No contracts.",
+    "Jimmy Cleans has been serving North New Jersey homes and businesses since 2025. Residential, commercial, window, post-construction, and power washing. Free quotes. No contracts.",
   keywords: [
     "cleaning services NJ",
     "house cleaning North New Jersey",
@@ -41,7 +41,7 @@ export const metadata = {
   authors: [{ name: "Jimmy Cleans" }],
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Jimmy Cleans | North New Jersey's Trusted Cleaning Service Since 2016",
+    title: "Jimmy Cleans | North New Jersey's Trusted Cleaning Service Since 2025",
     description:
       "Real cleaners, real results. Serving Morristown, Montclair, Wayne, Paramus, Ridgewood, and all of North NJ. Get a free quote today.",
     type: "website",
@@ -66,13 +66,13 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               "name": "Jimmy Cleans",
-              "description": "Professional residential and commercial cleaning services in North New Jersey. Serving homes and businesses since 2016.",
+              "description": "Professional residential and commercial cleaning services in North New Jersey. Serving homes and businesses since 2025.",
               "url": "https://jimmycleans.com",
-              "telephone": "+12015550100",
+              "telephone": "+19736176978",
               "email": "jimmycleansnj@gmail.com",
               "logo": "https://jimmycleans.com/Jimmy Cleans Logo FF.png",
               "image": "https://jimmycleans.com/Website Cover Photo.png",
-              "foundingDate": "2016",
+              "foundingDate": "2025",
               "address": {
                 "@type": "PostalAddress",
                 "addressRegion": "NJ",
@@ -97,7 +97,7 @@ export default function RootLayout({ children }) {
               "aggregateRating": {
                 "@type": "AggregateRating",
                 "ratingValue": "4.9",
-                "reviewCount": "1200",
+                "reviewCount": "100",
                 "bestRating": "5",
                 "worstRating": "1"
               },

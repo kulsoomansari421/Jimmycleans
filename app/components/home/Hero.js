@@ -69,7 +69,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-5xl sm:text-6xl lg:text-[4.25rem] font-extrabold leading-[1.05] tracking-tight text-white mb-6"
             >
-              If It&apos;s Dirty
+              If It&apos;s Dirty,
               <br />
               <span className="text-white">Jimmy Cleans.</span>
             </motion.h1>
@@ -100,7 +100,7 @@ care you can truly notice.
               </Link>
 
               <a
-                href="tel:+12015550100"
+                href="tel:+19736176978"
                 className="btn-outline-white flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-sm font-semibold"
               >
                 <Phone size={15} />
@@ -172,7 +172,7 @@ care you can truly notice.
                 </p>
 
                 <p className="text-[10px] text-[#6b7280]">
-                  1,200+ happy clients
+                  100+ happy clients
                 </p>
               </div>
             </motion.div>
@@ -185,7 +185,7 @@ care you can truly notice.
               className="absolute -top-4 -right-4 bg-[#1B9DE8] rounded-2xl px-4 py-2.5 shadow-xl"
             >
               <p className="text-white text-xs font-bold tracking-wide leading-tight">
-                Est. 2016
+                Est. 2025
               </p>
 
               <p className="text-white/70 text-[10px]">

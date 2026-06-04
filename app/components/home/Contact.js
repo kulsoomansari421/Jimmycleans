@@ -111,9 +111,9 @@ export default function Contact() {
                       <Star key={i} size={13} className="text-amber-400 fill-amber-400" />
                     ))}
                   </div>
-                  <span className="text-xs text-[rgba(255,255,255,0.45)]">4.9 · 1,200+ clients</span>
+                  <span className="text-xs text-[rgba(255,255,255,0.45)]">4.9 · 100+ clients</span>
                 </div>
-                <a href="tel:+12015550100" className="flex items-center gap-3 text-sm text-[rgba(255,255,255,0.75)] hover:text-white transition-colors">
+                <a href="tel:+19736176978" className="flex items-center gap-3 text-sm text-[rgba(255,255,255,0.75)] hover:text-white transition-colors">
                   <div className="w-8 h-8 rounded-lg bg-[rgba(27,157,232,0.2)] border border-[rgba(27,157,232,0.3)] flex items-center justify-center shrink-0">
                     <Phone size={13} className="text-[#1B9DE8]" />
                   </div>

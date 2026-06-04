@@ -57,13 +57,14 @@ export default function Footer() {
                 </p>
                 <div className="flex items-center gap-2">
                   {[
-                    { label: "IG", href: "#" },
-                    { label: "FB", href: "#" },
-                    { label: "X", href: "#" },
+                    { label: "IG", href: "https://www.instagram.com/jimmycleansnj/" },
+                    { label: "FB", href: "https://www.facebook.com/profile.php?id=61582880371718" },
                   ].map((s) => (
                     <a
                       key={s.label}
                       href={s.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="w-8 h-8 rounded-xl border border-[rgba(255,255,255,0.8)] bg-white/60 flex items-center justify-center text-[#6b7280] hover:text-[#1B9DE8] hover:border-[#1B9DE8] hover:bg-white/80 transition-all duration-200 text-[10px] font-bold shadow-sm"
                     >
                       {s.label}
@@ -120,7 +121,7 @@ export default function Footer() {
                     {[
                       { label: "Contact", href: "/#contact" },
                       { label: "Get a Quote", href: "/#contact" },
-                      { label: "Call Us", href: "tel:+12015550100" },
+                      { label: "Call Us", href: "tel:+19736176978" },
                     ].map((l) => (
                       <li key={l.label}>
                         <Link href={l.href} className="flex items-center gap-1.5 text-sm text-[#4b5563] hover:text-[#1B9DE8] transition-colors duration-150 group">
@@ -140,7 +141,7 @@ export default function Footer() {
                      Northern New Jersey
                     </li>
                     <li>
-                      <a href="tel:+9736176978" className="flex items-start gap-2.5 text-sm text-[#4b5563] hover:text-[#1B9DE8] transition-colors">
+                      <a href="tel:+19736176978" className="flex items-start gap-2.5 text-sm text-[#4b5563] hover:text-[#1B9DE8] transition-colors">
                         <Phone size={14} className="mt-0.5 shrink-0 text-[#1B9DE8]" />
                        (973) 617-6978
                       </a>
@@ -191,7 +192,7 @@ export default function Footer() {
         }}
       >
         <a
-          href="tel:(973) 617-6978"
+          href="tel:+19736176978"
           className="btn-outline flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold"
         >
           <Phone size={14} />

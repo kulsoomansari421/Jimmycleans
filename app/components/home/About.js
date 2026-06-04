@@ -32,7 +32,7 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-[rgba(255,255,255,0.45)] text-sm leading-relaxed mb-10">
               <p>
-                Jimmy started cleaning homes in Morristown back in 2016, just him, a van, and a reputation for never cutting corners. Eight years later, we&apos;re a full team serving towns all across Northern New Jersey, but the approach hasn&apos;t changed.
+                Jimmy started cleaning homes in Morristown back in 2025, just him, a van, and a reputation for never cutting corners. Since then, we&apos;ve grown into a full team serving towns all across Northern New Jersey, but the approach hasn&apos;t changed.
               </p>
               <p>
                 Show up when we say we will. Clean what we say we&apos;ll clean. Charge what we quoted. That&apos;s it. No hidden fees, no surprise add-ons, no strangers rotating through your space every week.
@@ -86,7 +86,7 @@ export default function About() {
                 <p className="text-[rgba(255,255,255,0.55)] text-sm">Northern New Jersey</p>
               </div>
               <div className="absolute top-5 right-5 bg-[#1B9DE8] rounded-xl px-3 py-2 text-center shadow-lg">
-                <p className="text-white font-extrabold text-xl leading-none">8+</p>
+                <p className="text-white font-extrabold text-xl leading-none">1+</p>
                 <p className="text-white/80 text-[10px] font-medium mt-0.5">Years</p>
               </div>
             </div>
