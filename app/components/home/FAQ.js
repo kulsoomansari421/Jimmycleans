@@ -136,11 +136,11 @@ export default function FAQ() {
                 >
                   <p className="text-white font-semibold text-sm">Still have questions?</p>
                   <a
-                    href="tel:+12015550100"
+                    href="tel:+19736176978"
                     className="flex items-center gap-1.5 text-[#60c0f8] text-xs font-medium mt-1 hover:text-white transition-colors"
                   >
                     <Phone size={11} />
-                    Call us at (201) 555-0100
+                    Call us at (973) 617-6978
                   </a>
                 </div>
               </div>

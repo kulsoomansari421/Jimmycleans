@@ -273,7 +273,7 @@ export default function ServicePage({ service }) {
                     Get a Quote
                   </Link>
                   <a
-                    href="tel:+12015550100"
+                    href="tel:+19736176978"
                     className="btn-dark flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-semibold"
                   >
                     Call Now
@@ -357,7 +357,7 @@ export default function ServicePage({ service }) {
                 <ArrowRight size={14} />
               </Link>
               <a
-                href="tel:+12015550100"
+                href="tel:+19736176978"
                 className="btn-outline-white flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-sm font-semibold"
               >
                 <Phone size={14} />

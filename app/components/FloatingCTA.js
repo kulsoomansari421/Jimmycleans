@@ -17,7 +17,7 @@ export default function FloatingCTA() {
     <AnimatePresence>
       {visible && (
         <motion.a
-          href="tel:+12015550100"
+          href="tel:+19736176978"
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 16 }}

@@ -138,7 +138,7 @@ export default function Footer() {
                   <ul className="space-y-3">
                     <li className="flex items-start gap-2.5 text-sm text-[#4b5563]">
                       <MapPin size={14} className="mt-0.5 shrink-0 text-[#1B9DE8]" />
-                     Northern New Jersey
+                     Riverdale, NJ
                     </li>
                     <li>
                       <a href="tel:+19736176978" className="flex items-start gap-2.5 text-sm text-[#4b5563] hover:text-[#1B9DE8] transition-colors">

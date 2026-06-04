@@ -3,12 +3,6 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
-const stats = [
-  
-  { value: "100+", label: "Happy Clients" },
-  { value: "100+", label: "Cleans Done" },
-];
-
 export default function About() {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-60px" });
@@ -83,7 +77,7 @@ export default function About() {
               />
               <div className="absolute bottom-6 left-6">
                 <p className="text-white font-bold text-lg leading-tight">Jimmy Cleans</p>
-                <p className="text-[rgba(255,255,255,0.55)] text-sm">Northern New Jersey</p>
+                <p className="text-[rgba(255,255,255,0.55)] text-sm">Riverdale, NJ</p>
               </div>
               <div className="absolute top-5 right-5 bg-[#1B9DE8] rounded-xl px-3 py-2 text-center shadow-lg">
                 <p className="text-white font-extrabold text-xl leading-none">1+</p>

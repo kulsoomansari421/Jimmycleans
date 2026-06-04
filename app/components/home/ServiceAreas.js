@@ -74,7 +74,7 @@ export default function ServiceAreas() {
           >
             <p className="text-slate-400 text-sm">
               Don&apos;t see your area?{" "}
-              <a href="tel:+12015550100" className="text-blue-400 hover:text-blue-300 font-semibold transition-colors">
+              <a href="tel:+19736176978" className="text-blue-400 hover:text-blue-300 font-semibold transition-colors">
                 Call us. We likely cover it.
               </a>
             </p>

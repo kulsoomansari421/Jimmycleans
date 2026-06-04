@@ -77,7 +77,7 @@ export default function RootLayout({ children }) {
                 "@type": "PostalAddress",
                 "addressRegion": "NJ",
                 "addressCountry": "US",
-                "addressLocality": "North New Jersey"
+                "addressLocality": "Riverdale"
               },
               "areaServed": [
                 "Morristown, NJ", "Montclair, NJ", "Wayne, NJ", "Paramus, NJ",
