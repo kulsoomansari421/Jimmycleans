@@ -162,9 +162,14 @@ export default function Footer() {
 
             {/* Bottom bar */}
             <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-              <p className="text-xs text-[#6b7280]">
-                © {new Date().getFullYear()} Jimmy Cleans. All rights reserved.
-              </p>
+              <div>
+                <p className="text-xs text-[#6b7280]">
+                  © {new Date().getFullYear()} Jimmy Cleans. All rights reserved.
+                </p>
+                <p className="text-xs text-[#9ca3af] mt-1">
+                  Powered by <span className="text-[#1B9DE8] font-medium">Metaronics</span>
+                </p>
+              </div>
               <div className="flex items-center gap-3">
                 <span className="text-xs text-[#6b7280]">Northern New Jersey&apos;s #1 Cleaning Service</span>
                 <Link
