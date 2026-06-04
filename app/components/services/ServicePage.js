@@ -361,7 +361,7 @@ export default function ServicePage({ service }) {
                 className="btn-outline-white flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-sm font-semibold"
               >
                 <Phone size={14} />
-                (201) 555-0100
+                (973) 617-6978
               </a>
             </div>
           </motion.div>

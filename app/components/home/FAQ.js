@@ -11,7 +11,7 @@ const faqs = [
   },
   {
     q: "How do I get a quote?",
-    a: "Fill out our contact form or call us directly at (201) 555-0100. We'll discuss your needs and provide a clear, transparent quote with no surprises.",
+    a: "Fill out our contact form or call us directly at (973) 617-6978. We'll discuss your needs and provide a clear, transparent quote with no surprises.",
   },
   {
     q: "Do you offer recurring cleaning services?",
