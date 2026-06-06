@@ -19,17 +19,29 @@ export default function About() {
             className="flex-1 max-w-xl"
           >
             <p className="text-xs font-semibold tracking-widest uppercase text-[rgba(255,255,255,0.3)] mb-4">
-              / About Jimmy /
+              / About Jimmy Cleans /
             </p>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight">
-              Northern New Jersey,<br />Built on Honest Work.
+              About Jimmy Cleans
             </h2>
             <div className="space-y-4 text-[rgba(255,255,255,0.45)] text-sm leading-relaxed mb-10">
               <p>
-                Jimmy started cleaning homes in Morristown back in 2025, just him, a van, and a reputation for never cutting corners. Since then, we&apos;ve grown into a full team serving towns all across Northern New Jersey, but the approach hasn&apos;t changed.
+                At Jimmy Cleans, our story began with a simple goal: provide reliable, high-quality cleaning services and earn every customer&apos;s trust through hard work and exceptional results.
               </p>
               <p>
-                Show up when we say we will. Clean what we say we&apos;ll clean. Charge what we quoted. That&apos;s it. No hidden fees, no surprise add-ons, no strangers rotating through your space every week.
+                What started as a one-person operation with a bucket, a squeegee, and a determination to succeed has grown into a trusted cleaning company serving homeowners, businesses, and property managers throughout North Jersey. In the early days, our founder personally went door-to-door introducing services to local businesses, building relationships one client at a time through dedication, consistency, and attention to detail.
+              </p>
+              <p>
+                As customer referrals and long-term partnerships continued to grow, so did our services. What began with professional window cleaning expanded into residential cleaning, commercial cleaning, power washing, and post-construction cleanup. Today, Jimmy Cleans proudly provides comprehensive cleaning solutions tailored to the needs of both residential and commercial clients across North Jersey.
+              </p>
+              <p>
+                While our company has grown, our core values remain unchanged. We believe that exceptional service starts with reliability, clear communication, professionalism, and a genuine commitment to customer satisfaction. Every property we service is treated with the same level of care and respect we would expect for our own.
+              </p>
+              <p>
+                Our reputation has been built on trust, consistency, and delivering results that exceed expectations. We take pride in helping our clients maintain clean, welcoming, and well-maintained spaces they can be proud of.
+              </p>
+              <p className="text-[rgba(255,255,255,0.6)] font-medium italic">
+                If It&apos;s Dirty — Jimmy Cleans.
               </p>
             </div>
 

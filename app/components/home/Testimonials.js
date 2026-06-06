@@ -6,31 +6,31 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah M.",
+    name: "Sarah Martinez",
     location: "Morristown, NJ",
     text: "I've tried four different cleaning services since moving to Morristown. Jimmy's team is the first one I actually kept. They cleaned things I didn't even think to ask about: the tops of door frames, the inside of the microwave, the grout lines. I stopped checking after them.",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=80&h=80&q=80",
   },
   {
-    name: "David R.",
+    name: "David Robinson",
     location: "Montclair, NJ",
     text: "Our office in Montclair gets a lot of foot traffic. Jimmy's crew comes in after hours twice a week and it genuinely looks spotless every morning. Two of our clients have asked who we use. That says enough.",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&h=80&q=80",
   },
   {
-    name: "Jessica L.",
+    name: "Jessica Lambert",
     location: "Wayne, NJ",
     text: "We just finished a kitchen renovation and there was drywall dust in every corner of the house. Jimmy's post-construction clean was incredibly thorough. Two hours later it felt like we'd moved into a brand new home. Seriously couldn't believe the difference.",
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=80&h=80&q=80",
   },
   {
-    name: "Mark T.",
+    name: "Mark Thompson",
     location: "Paramus, NJ",
     text: "They've been coming every other week to my place for over a year. Never missed an appointment, never been late without a heads-up first. That kind of reliability is genuinely hard to find. My wife and I both feel like it's one of the best things we spend money on.",
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=80&h=80&q=80",
   },
   {
-    name: "Amanda K.",
+    name: "Amanda Klein",
     location: "Ridgewood, NJ",
     text: "I'd basically given up on my driveway ever looking clean again. Jimmy's power washing took maybe 45 minutes and it looked brand new. My neighbor immediately asked for the number. Really glad I finally called.",
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=80&h=80&q=80",
